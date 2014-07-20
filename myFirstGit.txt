@@ -1,0 +1,8 @@
+1) create local git repo: "git init"
+2) clone to bare repo: git clone --bare <my_project> <target_my_project.git>
+3) move this to server
+4) add ssh key to server
+5) colone repo from server: git clone user@server:<folder.git>
+
+
+
