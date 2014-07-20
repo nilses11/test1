@@ -1,8 +1,17 @@
-1) create local git repo: "git init"
-2) clone to bare repo: git clone --bare <my_project> <target_my_project.git>
-3) move this to server
-4) add ssh key to server
-5) colone repo from server: git clone user@server:<folder.git>
+For a local, non-github repo:
+
+1) Create local git repo: "git init"
+2) Clone to bare repo: git clone --bare <my_project> <target_my_project.git>
+3) Move this to local NAS/server
+4) Add ssh key to server for easy access
+5) Clone repo from server back to client: git clone user@server:<folder.git>
+	- thats the easiest way, no need to manually configure 'remote'
+
+Github repo:
+
+1) Follow instructions on github.
+2) Make sure to clone using the ssh link, and not https
+3) Done!
 
 
 
