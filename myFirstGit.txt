@@ -15,3 +15,5 @@ Github repo:
 
 
 
+Remember to set config for username, email & editor!
+git config --global core.editor nano
