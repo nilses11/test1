@@ -1,0 +1,31 @@
+-v eller --verbose		gir mer informasjon om hva som skjer
+ps				list processes
+|				pipe
+>				redirect, overwrite
+>>				redirect, append
+pwd				print working directory
+df -h				quick calculate disk space
+chmod -x filename		make file executable
+history				list bash history
+find . -name filename		søk etter fil i mappen. * for wildcard
+grep filname			skriver ut alle linjer i input som inneholder filename
+grep navn -r $(pwd)		sÃ¸ker rekursivt i alle filer i alle undermapper etter navn
+poweroff			enda en måte å skru av
+link fra til			lager link
+apropos				fritt søk ang et tema
+apt-get autoremove		fjerner også dependencies
+apt-get purge			force remove?
+apt-cache search navn		sÃ¸ker i apt-cachen etter navn
+who				viser hvem som er logget på, inkl ssh
+scp				secure copy - kopiere filer over ssh
+
+dpkg -i package.deb		installere en nedlastet deb pakke
+du -h				viser en fin representasjon av brukt diskplass
+
+jobs				viser pågående prosesser (typ hvis du har avsluttet noe med C-z)
+fg %x				bringer frem igjen prosessen du avsluttet
+
+ncdu				bash file browser
+w3m				bash web browser
+screen				terminal-multiplexing. Se egen manual
+sudo update-alternatives --config java			konfigurere hvilken (hvis flere) java-installasjon som skal brukes
