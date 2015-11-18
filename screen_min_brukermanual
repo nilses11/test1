@@ -1,0 +1,21 @@
+Linux Screen allows you to:
+
+Use multiple shell windows from a single SSH session.
+Keep a shell active even through network disruptions.
+Disconnect and re-connect to a shell sessions from multiple locations.
+Run a long running process without maintaining an active shell session.
+
+screen	   	   	   starter programmet
+C+a			   generelle kontroll kommando, utføres før alle andre.
+C+a ?			   screen help page
+C+a c			   creates a new window
+C+a n			   next screen window. Bruk p for previous
+C+a d			   detach from screen. Keeps screen running. Start it up again with
+C+a r			   reattach to screen.
+C+a h			   creates a running log of the session
+C+a W			   show all windows
+C+a S			   create split screen
+C+a TAB			   switch between split screens
+
+C+a k			   Kill current window/session
+exit			   exit screen session

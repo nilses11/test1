@@ -28,4 +28,5 @@ fg %x				bringer frem igjen prosessen du avsluttet
 ncdu				bash file browser
 w3m				bash web browser
 screen				terminal-multiplexing. Se egen manual
-sudo update-alternatives --config java			konfigurere hvilken (hvis flere) java-installasjon som skal brukes
+update-alternatives --config java			konfigurere hvilken (hvis flere) java-installasjon som skal brukes. SU.
+service --status-all            lister opp alle tjenester som kjører. SU.
