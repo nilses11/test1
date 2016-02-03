@@ -31,3 +31,4 @@ screen				terminal-multiplexing. Se egen manual
 update-alternatives --config java			konfigurere hvilken (hvis flere) java-installasjon som skal brukes. SU.
 service --status-all            lister opp alle tjenester som kjører. SU.
 uname -all			viser OS, prosessor, kernel version etc.
+sudo arp-scan --interface=eth0 --localnet 	viser alle enheter pÃ¥ lokale nettverket
