@@ -3,10 +3,7 @@
 # for examples
 
 # If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
+[[ "$-" != *i* ]] && return
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -91,6 +88,8 @@ fi
 #alias ll='ls -l'
 #alias la='ls -A'
 #alias l='ls -CF'
+alias dir='ls --color -grth --group-directories-first'
+alias rot13='tr '\''A-Za-z'\'' '\''N-ZA-Mn-za-m'\'''
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
