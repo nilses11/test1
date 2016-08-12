@@ -90,6 +90,8 @@ fi
 #alias l='ls -CF'
 alias dir='ls --color -grth --group-directories-first'
 alias rot13='tr '\''A-Za-z'\'' '\''N-ZA-Mn-za-m'\'''
+#git config --global alias.tree "log --graph --decorate --oneline --all"
+alias gitlog='git log --graph --decorate --oneline --all'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
